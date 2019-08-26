@@ -1,0 +1,15 @@
+const LinkedList = require('./LinkedList')
+
+const linkList = new LinkedList()
+
+linkList.append("nba")
+linkList.append("cba")
+linkList.append("wba")
+linkList.insert(1,"xxx")
+console.log(linkList.toString())
+console.log(linkList.get(2))
+console.log(linkList.update(1,'666'))
+console.log(linkList.toString())
+console.log(linkList.isEmpty())
+console.log(linkList.remove("wba"))
+console.log(linkList.size())
